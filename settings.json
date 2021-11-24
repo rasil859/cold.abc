@@ -1,0 +1,478 @@
+{
+    "website": {
+        "name": "Cold",
+        "avatar": "https://cdn.discordapp.com/avatars/848827365857165314/a19e5dc0eae1cfbb00b4a7d4589e1535.png?size=300",
+        "invite": "https://discord.com/oauth2/authorize?client_id=900273508171518002&scope=bot&permissions=8589934591",
+        "vote": "https://discordbotlist.com/bots/cold/upvote"
+    },
+
+    "commands" : {
+            "Economy": [{
+            "name":"balance",
+            "category":"Economy",
+            "description":"Check your balance!",
+            "permissions":"none",
+            "aliases":"'bal', 'bl'",
+            "usage":"ye balance"
+            }, {
+            "name":"beg",
+            "category":"Economy",
+            "description":"Beg to get some coldurrency!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye beg"
+            }, { 
+            "name":"buy",
+            "category":"Economy",
+            "description":"Buy some items from the shop!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye buy <item_name>"
+            }, {
+            "name":"daily",
+            "category":"Economy",
+            "description":"Get your daily reward!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye daily"
+            }, {
+            "name":"deposit",
+            "category":"Economy",
+            "description":"Desposit some coldurrency into your bank!",
+            "permissions":"none",
+            "aliases":"dep",
+            "usage":"ye deposit <amount>"
+            }, {
+            "name":"give",
+            "category":"Economy",
+            "description":"Give some coldurrency to other people!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye give <@user> <amount>"  
+            }, {
+            "name":"inventory",
+            "category":"Economy",
+            "description":"Check your inventory!",
+            "permissions":"none",
+            "aliases":"inv",
+            "usage":"ye inventory"     
+            }, {
+            "name":"monthly",
+            "category":"Economy",
+            "description":"Get your monthly reward!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye monthly"     
+            }, {   
+            "name":"search",
+            "category":"Economy",
+            "description":"Search for some coldurrency!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye search" 
+            }, {
+            "name":"sell",
+            "category":"Economy",
+            "description":"Sell some items to get some coldurrency!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye sell <item_name>"        
+            }, {
+            "name":"shop",
+            "category":"Economy",
+            "description":"Check the whats availabe in the shop!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye shop"     
+            }, {
+            "name":"weekly",
+            "category":"Economy",
+            "description":"Get your weekly reward!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye weekly"
+            }, {
+            "name":"withdraw",
+            "category":"Economy",
+            "description":"Withdraw some coldurrency to your wallet!",
+            "permissions":"none",
+            "aliases":"with",
+            "usage":"ye withdraw <amount>"             
+            }, {
+            "name":"work",
+            "category":"Economy",
+            "description":"Work for some coldurrency!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye work"
+            }],
+            "Fun": [{
+            "name":"8ball",
+            "category":"Fun",
+            "description":"Ask a question and let the bot determine your fate!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye 8ball <question>"
+            }, {
+            "name":"advice",
+            "category":"Fun",
+            "description":"Give's you a random advice!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye advice"
+            }, {
+            "name":"corona",
+            "category":"Fun",
+            "description":"Get the statistics of covid19!",
+            "permissions":"none",
+            "aliases":"covid, covid19",
+            "usage":"ye corona all, ye corona <country_name>"
+            }, {
+            "name":"emojify",
+            "category":"Fun",
+            "description":"Turn any sentence or a letter to an emoji!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye emoify <sentence or numbers>"
+            }, {
+            "name":"image",
+            "category":"Fun",
+            "description":"Sends you the image you wanted!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye image <thing>"
+             }, {
+            "name":"meme",
+            "category":"Fun",
+            "description":"Sends you a random meme!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye meme"
+            }, {
+            "name":"owoify",
+            "category":"Fun",
+            "description":"Owoifies the text you typed!",
+            "permissions":"none",
+            "aliases":"'owo'",
+            "usage":"ye owoify <text>"
+            }, {
+            "name":"pixel-av",
+            "category":"Fun",
+            "description":"Sends you the pixelated avater of the user!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye pixel-avi <@user>"
+            }, {
+            "name":"reverse",
+            "category":"Fun",
+            "description":"Reverses the text you typed!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye reverse <text>"
+            }, {
+            "name":"trash",
+            "category":"Fun",
+            "description":"Sends a users avatar in trash!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye trash <@user>"
+            }, {
+            "name":"wink",
+            "category":"Fun",
+            "description":"Wink at a user!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye wink <@user>"
+            }, {
+            "name":"ytsearch",
+            "category":"Fun",
+            "description":"Sends the video from YouTube!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye ytsearch <video title or channel name>"
+            }, {
+            "name":"coinflip",
+            "category":"Fun",
+            "description":"Flips a coin!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye coinflip"
+            }, {
+            "name":"guessthenumber",
+            "category":"Fun",
+            "description":"Play guess the number, you will have to guess which number the bot is thinking!",
+            "permissions":"none",
+            "aliases":"'gtn'",
+            "usage":"ye guessthenumber"
+            }, {
+            "name":"rps",
+            "category":"Fun",
+            "description":"Play a game of rock paper scissors with the bot!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye rps"
+            }, {
+            "name":"scramble",
+            "category":"Fun",
+            "description":"Attempt to unscramble the given scrambled word!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye scramble"
+            }, {
+            "name":"bot-invite",
+            "category":"Fun",
+            "description":"Sends the invite link of the bot!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye bot-invite"
+            }, {
+            "name":"vote",
+            "category":"Fun",
+            "description":"Sends the link of the bot where you can vote!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye vote"
+                }, {
+            "name":"owner-yt",
+            "category":"Fun",
+            "description":"Sends the YouTube channel link of the owner of the bot!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye owner-yt"
+            }],
+            "Moderation": [{
+            "name":"add-role",
+            "category":"Moderation",
+            "description":"Adds the role you specified to the user!",
+            "permissions":"MANAGE_ROLES",
+            "aliases":"'ar'",
+            "usage":"add-role <@role_name> <@user>"
+            }, {
+            "name":"ban",
+            "category":"Moderation",
+            "description":"Permanantly bans the user from the server!",
+            "permissions":"BAN_MEMBERS",
+            "aliases":"none",
+            "usage":"ye ban <@user> <reason>"
+            }, {
+            "name":"booster_perks",
+            "category":"Moderation",
+            "description":"Sends the ready-made perks for the boosters of the server!",
+            "permissions":"ADMINISTRATOR",
+            "aliases":"'booster','perks','bp'",
+            "usage":"ye booster_perks"
+            }, {
+            "name":"clear",
+            "category":"Moderation",
+            "description":"Clears a number of messages from the server!",
+            "permissions":"MANAGE_MESSAGES",
+            "aliases":"none",
+            "usage":"ye clear <number>"
+            }, {
+            "name":"embed",
+            "category":"Moderation",
+            "description":"Makes a custom emebd for you!",
+            "permissions":"MANAGE_MESSAGES",
+            "aliases":"none",
+            "usage":"ye embed <title> <color is caps or hex code> <description>"
+            }, {
+            "name":"kick",
+            "category":"Moderation",
+            "description":"Kicks the user from the server!",
+            "permissions":"KICK_MEMBERS",
+            "aliases":"none",
+            "usage":"ye kick <@ser>"
+            }, {
+            "name":"mute",
+            "category":"Moderation",
+            "description":"Mutes the member from the server!",
+            "permissions":"MANAGE_MESSAGES",
+            "aliases":"none",
+            "usage":"ye mute <@user> <h,s,m>"
+            }, {
+            "name":"poll",
+            "category":"Moderation",
+            "description":"Creates a poll!",
+            "permissions":"MANAGE_MESSAGES",
+            "aliases":"none",
+            "usage":"ye poll <message>"
+            }, {
+            "name":"react",
+            "category":"Moderation",
+            "description":"Makes a reaction role!",
+            "permissions":"MANAGE_MESSAGES",
+            "aliases":"none",
+            "usage":"ye react <@role>"
+            }, {   
+            "name":"remove-role",
+            "category":"Moderation",
+            "description":"Removes a role from a user!",
+            "permissions":"MANAGE_ROLES",
+            "aliases":"'rr'",
+            "usage":"ye remove-role <@user> <@role>"
+            }, {   
+            "name":"set-prefix ",
+            "category":"Moderation",
+            "description":"Sets your custom prefix!",
+            "permissions":"ADMINISTRATOR",
+            "aliases":"non",
+            "usage":"ye set-prefix prefix <your_prefix>"
+            }, {   
+            "name":"settings",
+            "category":"Moderation",
+            "description":"See the settings of the server!",
+            "permissions":"ADMINISTRATOR",
+            "aliases":"none",
+            "usage":"ye settings"
+            }, {   
+            "name":"unban",
+            "category":"Moderation",
+            "description":"Unbans the user from the server!",
+            "permissions":"BAN_MEMBERS",
+            "aliases":"none",
+            "usage":"ye unban <user_id>"
+            }, {   
+            "name":"unmute",
+            "category":"Moderation",
+            "description":"Unmutes a member from the server!",
+            "permissions":"MUTE_MEMBERS",
+            "aliases":"none",
+            "usage":"ye unmute <@user>"
+            }],
+            "Music": [{
+            "name":"disconnect",
+            "category":"Music",
+            "description":"Stops playing the song and leaves the channel!",
+            "permissions":"none",
+            "aliases":"'stop', 'leave'",
+            "usage":"ye disconnect"
+            }, {
+            "name":"lyrics",
+            "category":"Music",
+            "description":"Sends the lyrics of the song you specified!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye lyrics <song_name"
+            }, {
+            "name":"play",
+            "category":"Music",
+            "description":"Plays the song you wanted from YouTube!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye play <song_name_or_youtube_link>"
+            }],
+            "Utility": [{
+            "name":"afk",
+            "category":"Utility",
+            "description":"Sets you in AFK mode!",
+            "permissions":"none",
+            "aliases":"'af'",
+            "usage":"ye afk"
+            }, {
+            "name":"avatar",
+            "category":"Utility",
+            "description":"Sends the users avatar!",
+            "permissions":"none",
+            "aliases":"'av'",
+            "usage":"ye avatar <@user>"
+            }, {
+            "name":"beg", 
+            "category":"Utility",
+            "description":"Sends the bug you reported the the bot owner!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye bug <bug>"
+            }, {
+            "name":"bot-info",
+            "category":"Utility",
+            "description":"Shows the bots info!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye bot-info"
+            }, {
+            "name":"djsdocs",
+            "category":"Utility",
+            "description":" Sends the documentations of discord.js!",
+            "permissions":"none",
+            "aliases":"'djs', 'docs'",
+            "usage":"ye djsdocs <query>"
+            }, { 
+            "name":"feedback",
+            "category":"Utility",
+            "description":"Sends the feedback you sent to the bot owner!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye feedback <feedback>"
+            }, {
+            "name":"help",
+            "category":"Utility",
+            "description":"Sends all of the commands!",
+             "permissions":"none",
+            "aliases":"none",
+            "usage":"ye help"
+            }, {
+            "name":"invite",
+            "category":"Utility",
+            "description":"Sends invite link of the server ID you entered!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye invite <serverID>"
+            }, {
+            "name":"ping",
+            "category":"Utility",
+            "description":"Sends you the bots ping!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye ping"
+            }, {
+            "name":"remind",
+            "category":"Utility",
+            "description":"Helps to remind you something!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye remind <h, m, s> <thing>"
+            }, {
+            "name":"server-info",
+            "category":"Utility",
+            "description":"Sends the information about the server!",
+            "permissions":"none",
+            "aliases":"'about-guild'",
+            "usage":"ye server-info"
+            }, {
+            "name":"server-roles",
+            "category":"Utility",
+            "description":"Sends the roles of the server!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye server-roles"
+            }, {
+            "name":"ticket",
+            "category":"Utility",
+            "description":"Opens a ticket for you!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye ticket"
+            }, {
+            "name":"version",
+            "category":"Utility",
+            "description":"Check the version of the bot!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye version"
+             }, {
+            "name":"weather",
+            "category":"Utility",
+            "description":"Sends the weather of a place!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye weather <place>"
+            }, {
+            "name":"whois",
+            "category":"Utility",
+            "description":"Sends the users info!",
+            "permissions":"none",
+            "aliases":"'user-info'",
+            "usage":"ye whois <@user>"
+            }]
+    }
+}
