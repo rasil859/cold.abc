@@ -1,5 +1,3 @@
-/*Color of the background of the page*/
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap');
 
 body {
@@ -13,7 +11,7 @@ body {
     border-radius: 70px;
 }
 
-/*Color of the vote button*/
+
 
 form.d-flex button {
     background-color: rgb(0, 143, 71);
@@ -23,13 +21,13 @@ form.d-flex button {
     border: 2px;
 }
 
-/*Color of the button on hover*/
+
 
 form.d-flex button:hover {
     background-color: rgb(0, 184, 92);
 }
 
-/* Main Body Which Contains The Pictures And Descriptions */
+
 
 .head {
     padding-top: 250px;
@@ -50,25 +48,24 @@ form.d-flex button:hover {
     max-width: 1400px;
 }
 
-/* First picture */
 
 .pt-10 {
     padding-top: 5rem!important;
 }
 
-/* Second picture */
+
 
 .pt-16 {
     padding-top: 20rem!important;
 }
 
-/* Third picture */
+
 
 .pt-20 {
     padding-top: 5rem!important;
 }
 
-/* Fourth picture */
+
 
 .pt-25 {
     padding-top: 19rem!important;
@@ -100,7 +97,7 @@ form.d-flex button:hover {
     box-shadow: 0 18px 22px 0 rgba(0, 0, 0, 0.2),0 10px 80px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* First picture */
+
 
 .custom-1 img {
     height: 270px;
@@ -119,7 +116,7 @@ form.d-flex button:hover {
     width: 40%;
 }
 
-/* Second picture */
+
 
 .custom-2 img {
     height: 270px;
@@ -141,7 +138,6 @@ form.d-flex button:hover {
     color: rgb(255, 255, 255);
 }
 
-/* Third picture */
 
 .custom-3 img {
     height: 270px;
@@ -163,7 +159,7 @@ form.d-flex button:hover {
     color: rgb(209, 209, 209);
 }
 
-/* Fourth picture */
+
 
 .custom-4 img {
     height: 270px;
@@ -186,7 +182,7 @@ form.d-flex button:hover {
 }
 
 
-/* Fifth picture text and description */
+
 
 .custom-5 img {
     height: 270px;
@@ -208,7 +204,7 @@ form.d-flex button:hover {
     color: rgb(209, 209, 209);
 }
 
-/* Fourth picture */
+
 
 .custom-9 img {
     height: 270px;
@@ -263,30 +259,29 @@ form.d-flex button:hover {
     }
 
     
-/* First picture text and description */
+
     .pt-10 {
         padding-top: 10rem!important;
     }
 
-/* Second picture text and description */
+
 
     .pt-16 {
         padding-top: 2rem!important;
     }
     
-/* Third picture text and description */
+
 
     .pt-20 {
         padding-top: 1rem!important;
     }
     
-/* Fourth picture text and description */
 
     .pt-25 {
         padding-top: 15rem!important;
     }
 
-    /* Fourth picture text and description */
+
 
     .pt-29 {
         padding-top: 15rem!important;
@@ -380,7 +375,7 @@ form.d-flex button:hover {
 
 
 
-    /* ANIMATION */
+  
 
 .slide-up-fade-in{
     animation: slide-up-fade-in ease 1.4s;
