@@ -325,6 +325,13 @@
             "aliases":"none",
             "usage":"ye settings"
             }, {   
+            "name":"slowmode",
+            "category":"Moderation",
+            "description":"Sets the slowmode of the channel!",
+            "permissions":"MANAGE_GUILD",
+            "aliases":"'sm'",
+            "usage":"ye slowmode <second> second"
+            }, { 
             "name":"unban",
             "category":"Moderation",
             "description":"Unbans the user from the server!",
