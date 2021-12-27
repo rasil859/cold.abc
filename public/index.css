@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap');
 
 body {
-    background-image: linear-gradient(to right, rgb(0, 10, 153), rgb(0, 118, 197));
-    color: rgb(0, 8, 42);
-    height: 100%;
-    width: 100%;
+    background: linear-gradient(-45deg, #f76336, #fa3243, #2352d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .navbar-brand img {
@@ -258,13 +269,9 @@ form.d-flex button:hover {
         height: auto;
     }
 
-    
-
     .pt-10 {
         padding-top: 10rem!important;
     }
-
-
 
     .pt-16 {
         padding-top: 2rem!important;
@@ -372,11 +379,7 @@ form.d-flex button:hover {
         text-align: center;
         width: 100%;
     }
-
-
-
   
-
 .slide-up-fade-in{
     animation: slide-up-fade-in ease 1.4s;
 }
@@ -391,11 +394,7 @@ form.d-flex button:hover {
       transform:  translate(0px,0px)  ;
   }
 }
-
     li-navbar {
         font-family: 'Nunito', sans-serif;
-
     }
-
 }
-    
