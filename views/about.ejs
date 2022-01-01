@@ -15,7 +15,10 @@
         </head>    
     <body>
        
-       
+      <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
       
         <%- include('../views/header') -%>
@@ -92,4 +95,13 @@
               <a class="text-white" href="http://cold-abc.herokuapp.com/">cold-abc.herokuapp.com</a>
             </div>
         </footer>
-  
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            setTimeout(function(){
+                $('.loader_bg').fadeToggle();
+            }, 1500);
+        </script>
+    </body>           
+</html>
+</head>
