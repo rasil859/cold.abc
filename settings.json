@@ -429,7 +429,7 @@
             "category":"Utility",
             "description":"Sends the covid statistics of a country or of the entire world!",
             "permissions":"none",
-            "aliases":""
+            "aliases":"'corona','covid19'"
             "usage":"ye covid / ye covid <country>"
              }, {
             "name":"djsdocs",
