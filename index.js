@@ -7,7 +7,6 @@ const server = http.createServer(app);
 app.set('view engine', 'ejs');
 app.use(express.static("public"));
 
-
 app.get("/", (req, res) => {
     res.render('index', { bot: settings.website })
 })
@@ -20,11 +19,17 @@ app.get("/about", (req, res) => {
     res.render("about", { bot: settings.website })
 })
 
+app.get("/contact", (req, res) => {
+    res.render("contact", {bot: settings.website })
+})
+
+app.get("/success", (req, res) => {
+    res.render("success", {bot: settings.website })
+})
+
 server.listen(port, () => {
     console.log({
         message: `Server listening on http://localhost:${port}`,
         badge: true
     })
 })
-
-
