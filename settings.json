@@ -142,6 +142,13 @@
             "aliases":"none",
             "usage":"ye image <thing>"
              }, {
+            "name":"kill",
+            "category":"Fun",
+            "description":"Kills you or the person who you wanted!",
+            "permissions":"none",
+            "aliases":"none",
+            "usage":"ye kill / ye kill <@user>"
+             }, {
             "name":"meme",
             "category":"Fun",
             "description":"Sends you a random meme!",
@@ -177,6 +184,13 @@
             "aliases":"none",
             "usage":"ye trash <@user>"
             }, {
+            "name":"tictactoe",
+            "category":"Fun",
+            "description":"Lets you play tictactoe with another player!",
+            "permissions":"none",
+            "aliases":"ttt",
+            "usage":"ye tictactoe <@user>"
+             }, {
             "name":"wink",
             "category":"Fun",
             "description":"Wink at a user!",
@@ -283,6 +297,13 @@
             "aliases":"none",
             "usage":"ye kick <@ser>"
             }, {
+            "name":"lock",
+            "category":"Moderation",
+            "description":"Locks a specific channel!",
+            "permissions":"MANAGE CHANNELS , MANAGE SERVER",
+            "aliases":"none",
+            "usage":"ye lock <@channel>"
+             }, {
             "name":"mute",
             "category":"Moderation",
             "description":"Mutes the member from the server!",
@@ -339,6 +360,13 @@
             "aliases":"none",
             "usage":"ye unban <user_id>"
             }, {   
+            "name":"unlock",
+            "category":"Moderation",
+            "description":"Unlocks a specific channel!",
+            "permissions":"MANAGE CHANNELS , MANAGE SERVER",
+            "aliases":"none",
+            "usage":"ye unlock <@channel>"
+             }, {
             "name":"unmute",
             "category":"Moderation",
             "description":"Unmutes a member from the server!",
@@ -397,6 +425,13 @@
             "aliases":"none",
             "usage":"ye bot-info"
             }, {
+            "name":"covid",
+            "category":"Utility",
+            "description":"Sends the covid statistics of a country or of the entire world!",
+            "permissions":"none",
+            "aliases":""
+            "usage":"ye covid / ye covid <country>"
+             }, {
             "name":"djsdocs",
             "category":"Utility",
             "description":" Sends the documentations of discord.js!",
