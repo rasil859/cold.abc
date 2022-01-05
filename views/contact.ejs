@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+  
     <head>
-        <head>
-            
+       
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <meta name="description" content="Cold is a multi-purpose bot. Starting from economy to social commands, kick to custom prefix. There’s even a complete shop system which is very fun and easy to use!">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <link rel="stylesheet" href="/index.css">
-        <link rel="icon"
-        type="image.png"
-        href="cold.png"> 
 
-            <title><%= bot.name %> | Contact The Owner </title>
-        </head>    
+    <link rel="icon"
+    type="image.png"
+    href="cold.png"> 
+        <title><%= bot.name %> | Contact </title>
+    </head>    
     <body>
-
-           
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-          
+    
       <div class="loader_bg">
         <div class="loader"></div>
     </div>
-
-      <%- include('../views/header') -%>
+      
+        <%- include('../views/header') -%>
        
       <div class="container mt-5">
-        <h1>Contact Me!</h1>
-        <form class="row g-3" action="https://formsubmit.co/coldbot22@gmail.com" method="POST">
+        <div class="d-flex justify-content-center" style="font-family: Nunito;">
+          <h1><b>Contact Me!</b></h1>
+          </div>
+        <form class="row g-3" action="https://formsubmit.co/ddbe1d0976eaf28b18267a820afac3b5" method="POST">
           <input type="text" name="_honey" style="display: none;">
           <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://cold-abc.herokuapp.com/success" >
+          <input type="hidden" name="_next" value="http://localhost:8000/success" >
           <div class="col-md-6">
-            <label for="discordUsername" class="form-label">Discord Username</label>
-            <input type="text" class="form-control" name="name" id="discordUsername" required>
+            <label for="discordUsername" class="form-label">Discord Username </label>
+            <input type="text" class="form-control" name="Discord&nbsp;Username" id="discordUsername" placeholder="||V1Bro_YT||" required>
           </div>
           <div class="col-md-6">
             <label for="discordTag" class="form-label">Discord Tag</label>
-            <input type="text" class="form-control" name="Last&nbsp;Name" id="discordTag" required>
+            <input type="text" class="form-control" name="Discord&nbsp;Tag" id="discordTag" placeholder="#9983" required>
           </div>
           <div class="col-md-8">
             <label for="emailInfo" class="form-label">E-mail</label>
-            <input type="email" class="form-control" name="email" id="emailInfo" required>
+            <input type="email" class="form-control" name="Email" id="emailInfo" placeholder="examplemail@gmail.com" required>
           </div>
           <div class="col-md-4">
-            <label for="phoneNumber" class="form-label">Phone Number</label>
-            <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (415) 867-5309">
+            <label for="serverid" class="form-label">Server ID</label>
+            <input type="text" class="form-control" name="Server&nbsp;ID" id="phoneNumber" placeholder="900276987438989312">
           </div>
           <div class="col-md-12">
-            <label for="comments" class="form-label">Comments, questions?</label>
-            <textarea class="form-control" id="comments" name="comments,&nbsp;questions" rows="3" required></textarea>
+            <label for="comments" class="form-label">Issue</label>
+            <textarea class="form-control" id="comments" name="Issue" rows="3" placeholder="Issue Here" required></textarea>
           </div>
           <div class="col-md-12">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-success border-warning">Submit</button>
           </div>
         </form>
     </div>
