@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <head>
             
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,40 +9,39 @@
         <link rel="icon"
         type="image.png"
         href="cold.png"> 
-
-            <title><%= bot.name %> | Success </title>
-        </head>    
+        <title><%= bot.name %> | Success </title>
+      </head>    
     <body>
-          
+      
       <div class="loader_bg">
         <div class="loader"></div>
     </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-      
-        <%- include('../views/header') -%>
-
-<div class="card text-center">
-    <div class="card-header">
-      Featured
+<center>
+    <div class="card justify-content-center head w-50 bg-secondary border-warning">
+      <div class="card-header">
+        Success!
+      </div>
+      <div class="card-body bg-success">
+        <h5 class="card-title">Successfully Sent the Mail!</h5>
+        <p class="card-text">Your mail has been sent to the owner successfully. We will get back to you bery soon!</p>
+        <a href="https://cold-abc.herokuapp.com/" class="btn btn-primary border-danger">Go Back</a>
+      </div>
+      <div class="card-footer bg-secondary">
+        Thanks for the feedback!
+      </div>
     </div>
-    <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-
+</center>
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
         setTimeout(function(){
             $('.loader_bg').fadeToggle();
-        }, 1500);
-    </script>
-    
+        }, 5000);
+    </script>    
   </body>
 </html>
-
 <style>
         
     li {
