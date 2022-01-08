@@ -135,6 +135,13 @@
             "aliases":"none",
             "usage":"ye emoify <sentence or numbers>"
             }, {
+            "name":"hack",
+            "category":"Fun",
+            "description":"Fake hack somones account!",
+            "permissions":"none",
+            "aliases":"'hax'",
+            "usage":"ye hack <@user>"
+             }, {
             "name":"image",
             "category":"Fun",
             "description":"Sends you the image you wanted!",
