@@ -2,7 +2,7 @@
     "website": {
         "name": "Cold",
         "avatar": "https://cdn.discordapp.com/avatars/900273508171518002/7ce4e51bed9d6974d310d7cedfe2a01e.png?size=128",
-        "invite": "https://discord.com/oauth2/authorize?client_id=900273508171518002&scope=bot&permissions=8589934591",
+        "invite": "https://discord.com/oauth2/authorize?client_id=900273508171518002&scope=bot%20applications.commands&permissions=1099511627775",
         "vote": "https://discordbotlist.com/bots/cold/upvote"
     },
 
